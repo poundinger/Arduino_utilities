@@ -39,7 +39,7 @@ void setup(){
     pinMode(analogInput, INPUT);
     lcd.begin(16, 2);
     lcd.print(tset);
-//    lcd.print(tset.length());
+    
     lcd.setCursor(0, 1);
     lcd.print(treal);
 
